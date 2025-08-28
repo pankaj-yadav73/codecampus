@@ -4,3 +4,11 @@ export interface USER {
   clerkUserId: string;
   image: string;
 }
+
+export interface COURSES {
+  tittle: string;
+  description: string;
+  image: string;
+  videoFile: string;
+  instructorId: string;
+}
