@@ -3,7 +3,7 @@
 import { db } from "@/lib/db";
 import { auth } from "@clerk/nextjs/server";
 import { NextResponse } from "next/server";
-
+import { GetObjectCommand } from "@aws-sdk/client-s3";
 export async function GET(
   request: Request,
   { params }: { params: { id: string } }
